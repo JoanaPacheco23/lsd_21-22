@@ -1,0 +1,29 @@
+div{
+    /* comentário em CSS */
+    width: 400px;
+    height: 300px;
+    background-color: indianred;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+
+/* definir class em CSS */
+.par{
+    background-color: cadetblue;
+}
+
+.par p{
+    background-color: lightblue;
+}
+
+p{
+    font-size: 18px;
+    margin: 0;
+}
+
+/*o span só ocupa o tamanho que o texto ocupa */
+.par p span{
+    background-color: purple;
+}

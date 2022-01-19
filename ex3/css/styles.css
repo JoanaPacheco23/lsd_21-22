@@ -1,0 +1,44 @@
+.cx-1, .cx-2{
+    margin: 30px;
+}
+
+.cx-1{
+    /* Para a div ocupar 100% - 40px devemos calcular através do css*/
+    width: calc(100% - 60px);
+    height: 100px;
+    background-color: peachpuff;
+}
+
+.cx-2{
+    width: calc(50% - 60px);
+    height: 160px;
+    background-color: salmon;
+    float: left;
+}
+
+.cx-interior{
+    width: 100%;
+    height: 60px;
+    background-color: tan;
+    
+}
+
+.cx-interior1, .cx-interior2, .cx-interior3{
+    width: calc(33.33% - 20px);
+    height: 120px;
+    float: left;
+    padding: 10px;
+}
+
+.cx-interior1{
+    background-color:teal;
+}
+
+.cx-interior2{
+    background-color:turquoise;
+}
+
+.cx-interior3{
+    background-color:steelblue;
+}
+
