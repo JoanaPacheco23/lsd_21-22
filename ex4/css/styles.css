@@ -13,8 +13,8 @@ body{
 
 .wrapper{
     width: 100%;
-    background: peachpuff;
-    height: 1300px;
+    float:left;
+    background-color: orange;
 }
 
 header{
@@ -23,6 +23,7 @@ header{
     background: #ffffff;
     float: left;
     padding-top: 15px;
+    position: fixed;
 }
 
 header div{
@@ -30,18 +31,33 @@ header div{
 }
 
 header div:first-child {
-    background: #25a2c3;
     width: 100px;
     height: 100px;
     float: left;
+    font-size: 20px;
+    color: #e3e3e3;
+    margin-top: 8px;
+
 }
+
+header div:first-child span{
+    padding: 5px;
+    border: 2px solid #e3e3e3;
+    border-radius: 5px;
+}
+
 
 /* Escolher o child que quisermos */
 header div:nth-child(2){
     width: calc(100% - 215px);
     float: left;
     font-family: 'a-minha-fonte';
+    color: #f6755e;
+    font-size: 25px;
+    font-weight: bold;
 }
+
+
 
 
 header div:nth-child(3){
@@ -50,6 +66,7 @@ header div:nth-child(3){
     float: right;
     padding-right: 15px;
 }
+
 
 header div button{
     width: 100%;
@@ -64,32 +81,186 @@ header div button{
 
 .hero{
     width: 100%;
-    height: 300px;
+    height: 600px;
     background-image: url(../images/banner.jpg); 
     background-position: top center;
     float: left;
+    margin-top: 65px;
+}
+
+.hero div{
+    width: 70%;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 15%;
+    margin-right: 15%;
+    float: left;
+    height: 200px;
+}
+
+.hero div h1{
+    font-size: 40px;
+    color: #25a2c3;
+    font-weight: bold;
+}
+
+.hero div p{
+    font-size: 16px;
+    color: #727a82;
+    line-height: 20px;
+    margin: 20px 0;
+}
+
+.hero div button{
+    background-color: #f6755e;
+    width: 160px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
 }
 
 .main-content{
-    width: 100%;
-    height: 250px;
-    background-color: orange;
+    width: calc(100% - 200px);
+    float: left;
+    padding: 100px;
+}
+
+.coluna{
+    width: 33.33%;
     float: left;
 }
 
-.box-content{
+.coluna div:first-child{
+    margin-bottom: 50px;
+}
+
+.coluna h2{
+    font-weight: bold;
+    color: #25a2c3;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.coluna p{
+    color:#727a82;
+}
+
+.coluna1 div, .coluna3 div{
+    padding: 20px;
+}
+
+.coluna div{
+    text-align: right;
+}
+
+.coluna3 div{
+    text-align: left;
+}
+
+.coluna2 div{
+    text-align: center;
+}
+
+.moldura{
+    width: 350px;
+    height: 350px;
+    background-color: pink;
+    margin: 0 auto;
+    border-radius: 175px;
+    overflow: hidden;
+
+}
+
+.moldura img{
     width: 100%;
-    height: 200px;
+
+}
+
+.box-content{
+    width: calc(100% - 100px);
     background: #f6755e;
     color: #fcdcd6;
     float: left;
+    padding: 50px;
+}
+
+
+
+.box-content h2{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+
+.box-content p{
+    text-align: center;
+}
+
+.box-content .quote{
+    line-height: 20px;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.box-content span{
+    font-weight: bold;
 }
 
 section.article-section{
     width: 100%;
     background: #ffF;
-    height: 200px;
     float: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.article-section ul{
+    width: 70%;
+    float: left;
+    margin-left: 15%;
+}
+
+.article-section li{
+    width: calc(33.33% - 42px);
+    float: left;
+    margin: 20px 20px;
+    border: 1px solid #dee1e3;
+    border-radius: 10px;
+    overflow: hidden;
+  
+}
+
+.moldura-artigo{
+    width: 100%;
+}
+
+.moldura-artigo img {
+    width: 100%;
+}
+
+.article-section .conteudo{
+    padding: 20px;
+    min-height: 100px;
+    width: calc(100% - 40px);
+}
+
+.article-section .conteudo h3{
+    font-size: 22px;
+    font-weight: bold;
+    color: #25a2c3;
+    margin-bottom: 15px;
+}
+
+.article-section .conteudo p{
+    font-size: 16px;
+    line-height: 22px;
+    color: #767b85;
 }
 
 footer{
@@ -98,6 +269,36 @@ footer{
     height: 200px;
     float: left;
 }
+
+footer h2{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer ul{
+    width: 70%;
+    margin-left: 15%;
+}
+
+footer li{
+    width: 33.33%;
+    float: left;
+}
+
+footer ul li:first-child{
+    text-align: left;
+}
+
+footer ul li:nth-child(2){
+    text-align: center;
+}
+
+footer ul li:nth-child(3){
+    text-align: right;
+}
+
 
 
 
