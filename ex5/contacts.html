@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <form action="dados.html" method="post"> <!-- para onde enviamos os dados do form preenchido -->
+        <ul>
+            <li>
+                <label for="nome_inserido">Nome</label> <!-- Para motivos de indexação, devemos ligar a label ao name do field-->
+                <input type="text" name="nome_inserido" placeholder="inserir o nome" required>
+            </li>
+            <li>
+                <label for="email_inserido">Email</label>
+                <input type="email" name="email-inserido" placeholder="inserir o email">
+            </li>
+            <li>
+                <label>Data de nascimento</label>
+                <input type="date" name="data_nascimento" max="2010-10-22"> <!-- dá par limitar as idades -->
+            </li>
+            <li>
+                <label>Género</label><br>
+                M <input type="radio" name="genero" value="masculino"> <br>
+                F <input type="radio" name="genero" value="feminino"> <br>
+                Outro <input type="radio" name="genero" value="outro"> <br>
+            </li>
+            <li>
+                <label>Cidade</label>
+                <select name="cidade">
+                    <option value="0">Escolha uma cidade</option> <!--Não segue esta opção-->
+                    <option value="1000">Lisboa</option>
+                    <option value="2000">Porto</option>
+                    <option value="3000">Coimbra</option>
+                </select>
+            </li>
+            <li>
+                <label>Interesses</label>
+                <ul>
+                    <li>
+                        Cinema <input type="checkbox" name="interesses[]" value="cinema">
+                    </li>
+                    <li>
+                        Música <input type="checkbox" name="interesses[]" value="musica">
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <label>Número de carros em casa</label>
+                <input type="number" max="10" min="0">
+            </li>
+
+            <li>
+                <button>
+                    Enviar
+                </button>
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
