@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'maicons';
-    src: url(../fonts/maicons.ttf);
+    src: url(../fonts/maicons.eot);
 }
 
 
@@ -11,10 +11,9 @@
 
 
 header .second-header{
-    width: calc(100% - 20%);
+    width: 70%;
     float: left;
-    padding: 10px 10%;
-    border-bottom: 1px solid #989AAD;
+    margin-left: 15%;
 }
 
 header .second-header div:first-child{
@@ -44,12 +43,48 @@ header .second-header div:nth-child(2) p{
 
 
 
+
+
 header .main-header{
-    width: 100%;
-    height: 100px;
-    background-color: orange;
+    width: calc(100% - 30%);
+    float: left;
+    padding-right: 15%;
+    padding-left: 15%;
+    border-top: 1px solid #989AAD;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header .main-header .logo{
+    width: 15%;
     float: left;
 }
+
+.logo{
+    font-size: 30px;
+    font-family: 'maicons';
+}
+
+.logo span{
+    color: blue;
+    
+}
+
+.main-header .menu{
+    width: 85%;
+    float: left;
+}
+
+
+
+#menu-topo ul li{
+    width: calc(100% / 6);
+    float: left;
+    text-align: right;
+}
+
+
 
 .hero{
     width: 100%;
@@ -59,10 +94,59 @@ header .main-header{
 }
 
 .about{
-    width: 100%;
+    width: 70%;
+    margin-left: 15%;
     float: left;
-    height: 300px;
-    background: purple;
+    padding-top: 50px;
+    padding-bottom: 50px;;
+}
+
+.about .caixa{
+    width: calc(50% - 20px);
+    margin: 10px;
+    float: left;
+}
+
+.about .caixa h3{
+    font-size: 18px;
+    color: #989AAD;
+    font-family: 'maicons';
+    margin-bottom: 20px;
+}
+
+.about .caixa h2{
+    font-size: 28px;
+    color: #333;
+    font-family: 'maicons';
+    margin-bottom: 30px;
+}
+
+.about .caixa h2 span{
+    color: #389DFC;
+}
+
+.about .caixa p{
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.about button{
+    font-family: 'maicons';
+    background-color: #389DFC;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 30px;
+    font-size: 16px;
+}
+
+
+.about .caixa img{
+    width: 80%;
+    border-radius: 15px;
+    transform: skewX(-3deg);
+    box-shadow: 0px 2px 26px 0px rgb(0 0 0 / 23%);
+
 }
 
 .services{

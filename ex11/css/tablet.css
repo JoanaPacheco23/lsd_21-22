@@ -1,0 +1,10 @@
+    .wrapper{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .article-list li{
+        width: calc(50% - 10px);
+        margin: 5px ;
+    }
+

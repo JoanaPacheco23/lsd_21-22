@@ -1,0 +1,64 @@
+.caixa{
+    width: 100px;
+    height: 200px;
+    background: pink;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    animation-name: moveCaixaOutraVez;
+    animation-duration: 5s;
+    color: black;
+    /* animation-direction: alternate;
+    animation-iteration-count: infinite; */
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveCaixa {
+    from{
+        background: pink;
+    }
+
+    to{
+        background: blueviolet;
+    }
+
+}
+
+@keyframes moveCaixaOutraVez {
+    0%{
+        top: 100px;
+        left: 100px;
+
+    }
+
+    25%{
+        top: 100px;
+        left: 200px;
+        background-color: aqua;
+        color: pink;
+    }
+
+    50%{
+        top: 200px;
+        left: 200px;
+        background-color: coral;
+        color: blue;
+    }
+
+    75%{
+        top: 200px;
+        left: 300px;
+        background-color: crimson;
+        color: violet;
+
+    }
+
+    100%{
+        top: 300px;
+        left: 300px;
+        background-color: brown;
+        color:aquamarine;
+
+    }
+
+}

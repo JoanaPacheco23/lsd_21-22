@@ -1,0 +1,41 @@
+#top-menu{
+    width: 100%;
+    float: left;
+}
+
+#top-menu li{
+    width: 20%;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#top-menu a,
+#top-menu a:visited{
+    color: #000;
+    text-decoration: none;
+}
+
+#top-menu li:hover, #top-menu li a:hover {
+    background: orange;
+    cursor: pointer;
+    color: #fff
+}
+
+#top-menu .dropdown li{
+    width: 100%;
+}
+
+.dropdown{
+    display: none;
+}
+
+#top-menu li:hover .dropdown{
+    display: block;
+}
+
+#top-menu .dropdown li:hover{
+    background-color: blue;
+}
+
