@@ -1,0 +1,20 @@
+.box-content{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+.caixa{
+    width: 500px;
+    height: 100px;
+    background-color: pink;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.impar{
+    flex-direction: row;
+}
+

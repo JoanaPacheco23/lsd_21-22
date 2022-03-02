@@ -17,11 +17,16 @@
     text-decoration: none;
 }
 
-#top-menu li:hover, #top-menu li a:hover {
+#top-menu #first-level li:hover, #top-menu #first-level li a:hover {
     background: orange;
     cursor: pointer;
-    color: #fff
+    color: #fff;
+    animation-name: animaMenu;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
 }
+
+
 
 #top-menu .dropdown li{
     width: 100%;
@@ -35,7 +40,18 @@
     display: block;
 }
 
-#top-menu .dropdown li:hover{
+.dropdown li:hover{
     background-color: blue;
 }
+
+@keyframes animaMenu {
+    from{
+        height: 0px;
+    }
+    
+    to{
+        height: 100px;
+    }
+}
+
 

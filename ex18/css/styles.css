@@ -1,0 +1,77 @@
+.wrapper{
+    width: 70%;
+    margin-left: 15%;
+}
+
+
+.box-container{
+    width: 100%;
+    background-color: peachpuff;
+    display: flex;
+
+}
+
+.box-container div{
+    width: 200px;
+    min-height: 250px;
+    margin: 20px;
+    background-color: violet;
+}
+
+.box-container .moldura{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+}
+
+.moldura .absolute{
+    position: absolute;
+}
+
+.moldura img{
+    width: 100%;
+}
+
+.box-container figure{
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+}
+
+.box-container .overlay{
+    width: 100%;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    /*opacity: 0.5;*/
+    color: white;
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    .wrapper{
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    
+    .box-container{
+        flex-direction: column;
+    }
+
+    .box-container div{
+        width: 100%;
+        margin: 0;
+    }
+
+    
+}
+
+
+
+
