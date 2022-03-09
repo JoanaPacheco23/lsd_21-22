@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //comentar linha
+        /* 
+        comentar bloco de código
+        */
+
+        // escrever no documento Olá Mundo
+        document.write("Olá Mundo");
+        document.write("<br>");
+        document.write("Eu sou a Joana");
+        document.write("<br>");
+
+
+        var nome;
+        primeiro_nome = "Maria";
+        apelido = "Silva";
+        nome_completo = primeiro_nome+" "+apelido;
+        idade = 25;
+
+        mensagem = "O meu nome é " +nome_completo+" e a minha idade é: "+idade;
+
+        parcela_1 = 17;
+        parcela_2 = "23";
+        parcela_3 = 27;
+
+        // apenas o + concatena strings, todos os outros fazem a conta ignorando que é string
+
+        soma = parcela_1 + parcela_2 + parcela_3;
+        multiplicacao = parcela_1 * parcela_2;
+        divisao = parcela_1 / parcela_2;
+        subtracao = parcela_1 - parcela_2;
+
+        //var nome = "Maria";
+
+        document.write(mensagem);
+        document.write("<br>");
+        document.write(soma);
+        document.write("<br>");
+        document.write(multiplicacao);
+        document.write("<br>");
+        document.write(divisao);
+        document.write("<br>");
+        document.write(subtracao);
+
+        document.write("<br>");
+
+
+        // a % é o operador que devolve o resto da divisão
+
+        par = parcela_1 % 2; 
+
+
+        // mandar escrever para a consola do inspect em vez de ficar diretamente live
+        console.log("O valor do resto é: "+par)
+
+
+        //sempre que se faz uma comparação, temos de usar sempre dois iguais. Um só igual é para atribuir
+        if(par==0){
+            console.log("Entrei no par");
+            document.write("é par")
+        }
+            else {
+
+                console.log("Entrei no ímpar");
+
+                document.write("é ímpar")
+            }
+
+        
+
+
+
+    </script>
+</body>
+</html>

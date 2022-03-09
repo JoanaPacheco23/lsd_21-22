@@ -1,0 +1,130 @@
+h1 {
+    font-size: 38px;
+}
+
+
+.hero{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    float: left;
+}
+
+.main-header{
+    background-color: #fff;
+    float: left;
+}
+
+header{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 0px;
+}
+
+.logo{
+    width: 92%;
+    float: left;
+    color: #9ACD32;
+    margin-top: 15px;
+}
+
+.fa-fire{
+    margin-right: 5px;
+}
+
+.main-header header .menu{
+    width: 8%;
+    margin-top: 12px;
+}
+
+.menu-desktop{
+    display: none;
+}
+
+.menu-mobile {
+    display: block;
+}
+
+.menu-mobile .visible-mobile{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.548);
+    color: #222;
+    padding: 15px;
+    position: absolute;
+    right: 0;
+    width: 50%;
+}
+
+.menu-mobile:hover .visible-mobile{
+    display: block;
+}
+
+.visible-mobile ul{
+    width: 50%;
+}
+
+.main-header nav{
+    display: none;
+}
+
+.fa-bars{
+    display: block;
+    color: #888;
+    padding: 5px 7px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+.main-content{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.banner-content{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.banner-verde{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+}
+
+.class-wrapper{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.coluna-1, .coluna-2, .coluna-3, .coluna-4{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.coluna-2, .coluna-4{
+    margin-top: 10px;
+}
+
+.moldura {
+    width: 380px;
+    border-radius: 190px / 125px;
+}
+
+.box1, .box2, .box3{
+    width: 100%;
+    float: left;
+    height: 120px;
+}
+
+.caixas h2{
+    margin-top: 40px;
+}
+
+.cta-content{
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+
