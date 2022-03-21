@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        lista_de_numeros=[25,11,36,9,87,24,6];
+
+        encontrou = false;
+
+
+        //Tudo o que tiver dentro das chavetas é executado pelo ciclo
+        /*
+        for(i=0; i<=6; i=i+1){
+            numero_lido=lista_de_numeros[i];
+
+            if(numero_lido === 10){
+                encontrou = true;
+            }
+            //console.log(lista_de_numeros[i]);
+        }
+        */
+
+        //quando nao sabemos quantas voltas temos de dar, usamos o ciclo while em vez de for
+
+        i=0;
+
+        while(encontrou == false && i<=6){
+            numero_lido = lista_de_numeros[i];
+            if(numero_lido === 10){
+                encontrou = true;
+            }
+            
+            i=i+1;
+            console.log(i);
+
+        }
+
+        if(encontrou==true){
+            document.write("O número está na lista");
+        } else{
+            document.write("O número não está na lista")
+        }
+    </script>
+    
+</body>
+</html>

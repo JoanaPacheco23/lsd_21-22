@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        lista_de_numeros=[2,4,5,-5,0,55,28]
+
+        o_maior_encontrado = lista_de_numeros[0];
+        o_menor_encontrado = lista_de_numeros[0];
+
+        for(i=0; i<7; i=i+1){
+            numero_lido = lista_de_numeros[i];
+            if(numero_lido > o_maior_encontrado){
+                o_maior_encontrado = numero_lido;
+            }
+
+            if(numero_lido < o_menor_encontrado){
+                o_menor_encontrado = numero_lido;
+            }
+        }
+
+        document.write("O maior é "+o_maior_encontrado+" e o menor é "+o_menor_encontrado+" ")
+    </script>
+</body>
+</html>

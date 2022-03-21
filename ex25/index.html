@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        palavra = "radar";
+        palavra_invertida = '';
+        tamanho_palavra = palavra.length;
+    
+            
+        for(i=tamanho_palavra-1; i>=0; i=i-1){
+            letra_lida = palavra[i];
+            palavra_invertida = palavra_invertida + letra_lida;
+            console.log(palavra_invertida);
+
+        }
+        
+
+        if(palavra==palavra_invertida){
+            document.write("é uma capicua");
+        } else{
+            document.write("não é uma capicua");
+        }
+
+    </script>
+</body>
+</html>
