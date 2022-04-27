@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'Ogg';
+    src: url(../fonts/ogg/ogg-roman.otf);
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url(../fonts/tt_norms/TTNorms-Regular.otf);
+    font-weight: 500;
+}
+
+
+h1{
+    font-family: 'Ogg';
+    font-size: 40px;
+}
+
+p{
+    font-family: 'TT Norms';
+    font-size: 16px;
+    color: #363636;
+}
+
+
+.wrapper{
+    width: 100%;
+    background-color: white;
+    float: left;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    float: left;
+}
+
+.top-header{
+    width: 100%;
+    padding: 7.5px 0;
+    background-color: #FAF3ED;
+    float: left;
+}
+
+.top-header p{
+    font-size: 14px;
+    text-align: center;
+    color: #1A1A1A;
+    line-height: 15px;
+    float: left;
+    width: 100%;
+}
+
+.main-header{
+    width: 100%;
+    background-color: rgba(234, 212, 198, 0.8);
+    backdrop-filter: blur(30px);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: calc(100px - 5%);
+    float: left;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+header{
+    width: 70%;
+    margin-left: 15%;
+    float: left;
+}
+
+.logo{
+    width: 20%;
+    float: left;
+    height: auto;
+}
+
+.menu{
+    width: 55%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2px;
+}
+
+.menu li{
+    width: 20%;
+    float: left;
+    text-align: center;
+    font-family: 'TT Norms';
+    font-size: 16px;
+    color: #363636;
+}
+
+.icons{
+    width: 12%;
+    float: left;
+    margin-left: 8%;
+}
+
+.icons li{
+    width: 25%;
+    float: left;
+    text-align: right;
+}
+
+.hero{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    background-image: url(../images/background-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.novidades{
+    width: 70%;
+    margin-left: 15%;
+    float: left;
+    background: bisque;
+    height: 350px;
+}
+
+.categorias{
+    width: 70%;
+    margin-left: 15%;
+    float: left;
+    background: darksalmon;
+    height: auto;
+}
+
+.categorias .coluna-1{
+    width: calc(70% - 15px);
+    margin-right: 15px;
+    float: left;
+}
+
+.categorias .coluna-2{
+    width: calc(30% - 15px);
+    margin-left: 15px;
+    float: left;
+}
+
+.moldura-coluna1{
+    width: 100%;
+    height: 235px;
+    border-top-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.moldura-coluna2{
+    width: 100%;
+    height: 500px;
+    border-top-right-radius: 150px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.moldura img{
+    width: 100%;
+}
+
+.moldura-coluna2 img{
+    height: 500px;
+}
+
+.aneis{
+    margin-bottom: 30px;
+}
+
+.bestsellers{
+    width: 70%;
+    margin-left: 15%;
+    float: left;
+    background: floralwhite;
+    height: 350px;
+}
+
+.social{
+    width: 70%;
+    margin-left: 15%;
+    float: left;
+    background: honeydew;
+    height: 350px;
+}

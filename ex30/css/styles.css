@@ -1,0 +1,23 @@
+div:first-child{
+    border-radius: 15px;
+    box-shadow: 0 12px 31px rgb(0 0 0 / 24%);
+    padding: 15px;
+}
+
+
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+div{
+    width: 70%;
+    margin-left: 15%;
+    float: left;
+}
+
+div li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

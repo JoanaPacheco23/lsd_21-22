@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div>
+        <form action="submeteForm.php" onsubmit="return validaFormulario2()">
+            <ul>
+                <li>
+                    Nome:
+                        <input type="text" id="nome">*
+                </li>
+                <li>
+                    Email:
+                        <input type="text" id="email">*
+                </li>
+                <li>
+                    Telefone:
+                        <input type="text" id="telefone">*
+                </li>
+                <li>
+                    Morada:
+                        <textarea id="morada"></textarea>*
+                </li>
+                <li>
+                    Código Postal:
+                        <input type="text" id="cp1"> - <input type="text" id="cp2">*
+                </li>
+                <li>
+                    <button>Submeter</button>
+                </li>
+            </ul>
+        </form>
+
+        <div id="zona_de_erros"></div>
+    </div>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

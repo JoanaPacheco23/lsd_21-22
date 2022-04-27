@@ -1,0 +1,61 @@
+.wrapper{
+    width: calc(100% - 40px);
+    float: left;
+    padding: 20px;
+    background-color: yellow;
+}
+
+.caixa{
+    margin: 10px;
+    width: calc(25% - 20px);
+    float: left;
+    background-color: orange;
+    height: 200px;
+}
+
+.menu-desktop{
+    height: 40px;
+    width: 100%;
+}
+
+.menu-desktop li{
+    width: 20%;
+    text-align: center;
+    list-style: none;
+    float: left;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+#items-menu-mobile{
+    display: none;
+}
+
+@media screen and (max-width:1000px){
+
+    .caixa{
+        width: calc(50% - 20px);
+        background: grey;
+    }
+
+}
+
+@media screen and (max-width:600px){
+
+    .menu-mobile{
+        display: block;
+    }
+
+    .menu-desktop{
+        display: none;
+    }
+
+    .caixa{
+        width: calc(100% - 20px);
+        background: grey;
+    }
+
+}
+    
