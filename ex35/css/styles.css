@@ -1,0 +1,29 @@
+.caixa1{
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+    display: none;
+    margin-bottom: 10px;
+}
+
+.caixa2{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    display: none;
+    margin-bottom: 10px;
+}
+
+.caixa3{
+    width: 400px;
+    height: 200px;
+    background-color:firebrick;
+    margin-bottom: 10px;
+}
+
+.caixa3-ativa{
+    width: 500px;
+    height: 300px;
+    background-color:lightcoral;
+    margin-bottom: 10px;
+}

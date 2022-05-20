@@ -33,6 +33,7 @@ p{
     top: 0;
     width: 100%;
     float: left;
+    line-height: 100px;
 }
 
 .top-header{
@@ -59,8 +60,8 @@ p{
     border-bottom-right-radius: 50px;
     height: calc(100px - 5%);
     float: left;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    height: 100px;
+
 }
 
 header{
@@ -112,6 +113,29 @@ header{
     background-size: cover;
     background-position: bottom;
 }
+
+.inner_hero{
+    width: 70%;
+    float: left;
+    margin-left: 15%;
+    height: auto;
+    padding-top: 20%;
+}
+
+.hero_column1{
+    width: calc(60% - 15px);
+    margin-right: 15px;
+    height: 500px;
+}
+
+.hero_column1 h1, .hero_column1 p{
+    margin-bottom: 30px;
+}
+
+.hero_column1 p{
+    width: 400px;
+}
+
 
 .novidades{
     width: 70%;

@@ -1,0 +1,13 @@
+.caixa_drop{
+    width: 200px;
+    padding: 20px;
+    background-color:darksalmon;
+    display: none;
+}
+
+.caixa1{
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    position: absolute;
+}

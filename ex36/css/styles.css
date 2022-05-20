@@ -1,0 +1,23 @@
+.caixa1, .caixa2, .caixa3, .caixa4{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    float: left;
+    display: none;
+}
+
+.caixa1{
+    background-color: lightseagreen;
+}
+
+.caixa2{
+    background-color: darksalmon;
+}
+
+.caixa3{
+    background-color: darkcyan;
+}
+
+.caixa4{
+    background-color: lightsalmon;
+}

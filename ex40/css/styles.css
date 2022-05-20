@@ -1,0 +1,12 @@
+body{
+    background-color: darksalmon;
+}
+
+.slider-1, .slider-2{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.slick-prev:before, .slick-next:before{
+    color: yellow;
+}
